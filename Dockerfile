@@ -1,4 +1,4 @@
 FROM nginx
-COPY static-html-directory /usr/share/nginx/html
+COPY /home/ubuntu/jenkins/workspace/CIusingJenkinsAndGithub /usr/share/nginx/html
 EXPOSE 80
 CMD ["daemon off:"]
